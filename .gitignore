@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.dll
+*.so
+
+# VS Code files
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# Distribution / packaging
+.Python
+env/
+venv/
+DIST_DIR/
+build/
+develop-eggs/
+*.egg-info/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-log.txt
+pip-delete-this.txt
+*.whl
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Anaconda
+*.conda
+conda-env.yml
+environment.yml
+*.log
+*.tmp
+*.lock
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Data and output
+data/*
+!data/.gitkeep  # Keep this file to track the data directory in Git
+output/*
+!output/.gitkeep  # Keep this file to track the output directory in Git
+results/*
+!results/.gitkeep  # Keep this file to track the results directory in Git
+
+# Compiled files
+*.obj
+*.exe
+*.dll
+*.so
+
+# Temporary files
+*.swp
+*.bak
+*~
+~$*
+*.temp
+
+# Specific to your project (adjust as needed)
+/docs/_build/  # Sphinx documentation build output
+.pytest_cache/ # pytest cache directory
+
+# Optional: Ignore virtual environment directory if it's in the project root
+# venv/
