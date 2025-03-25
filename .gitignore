@@ -57,6 +57,8 @@ output/*
 !output/.gitkeep  # Keep this file to track the output directory in Git
 results/*
 !results/.gitkeep  # Keep this file to track the results directory in Git
+!notebooks/.gitkeep  # Keep this file to track the data directory in Git
+output/*
 
 # Compiled files
 *.obj
